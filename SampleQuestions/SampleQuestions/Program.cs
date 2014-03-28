@@ -10,7 +10,10 @@ namespace SampleQuestions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Sort S = new Sort();
+            int[] arr = { 90, 3, 4, 89, 76, 5 };
+            S.selectionSort(arr);
+            Helper.printIntArray(arr);
         }
     }
 }

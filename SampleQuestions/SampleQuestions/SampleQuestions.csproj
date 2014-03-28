@@ -41,8 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helper.cs" />
+    <Compile Include="InterestingQuestions.cs" />
+    <Compile Include="MyDoublyLinkedList.cs" />
+    <Compile Include="MylinkedList.cs" />
+    <Compile Include="MyTree.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sort.cs" />
+    <Compile Include="StringProblems.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
